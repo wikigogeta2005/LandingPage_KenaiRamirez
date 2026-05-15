@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Axel Ramirez | Portafolio Profesional</title>
+    <link rel="icon" type="image/x-icon" href="./Imagenes/astronauthelmet_96120.ico">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">AR<span>.</span></div>
+        <ul class="nav-links">
+            <li><a href="#perfil">Perfil</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#experiencia">Formación</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Hola, soy <br><span class="text-gradient">Axel Kenai Ramirez Logacho</span></h1>
+            <p>Estudiante de Ingeniería de Software en la <strong>ESPE</strong>. Enfocado en la organización visual, eficiencia y despliegue de infraestructura moderna.</p>
+            <div class="hero-btns">
+                <a href="#contacto" class="btn btn-primary">Contáctame</a>
+                <a href="#habilidades" class="btn btn-secondary">Ver mis Skills</a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="./Imagenes/Yo.png" alt="Axel Ramirez" class="profile-img-hero">
+        </div>
+    </header>
+
+    <main class="container">
+        
+        <section id="perfil" class="section">
+            <h2 class="section-title">Datos Personales</h2>
+            <div class="bio-card-container">
+                <div class="bio-photo-panel">
+                    <img src="./Imagenes/Autoretrato.png" alt="Axel Kenai Ramirez Logacho">
+                </div>
+                <div class="bio-info-panel">
+                    <div class="bio-data-group">
+                        <span class="bio-label">NOMBRES Y APELLIDOS:</span>
+                        <p class="bio-value">Axel Kenai Ramirez Logacho</p>
+                    </div>
+                    <div class="bio-data-group">
+                        <span class="bio-label">UBICACIÓN:</span>
+                        <p class="bio-value">Quito - Chillogallo</p>
+                    </div>
+                    <div class="bio-data-group">
+                        <span class="bio-label">IDENTIDAD:</span>
+                        <p class="bio-value">1729309417</p>
+                    </div>
+                    <div class="bio-data-group">
+                        <span class="bio-label">CARRERA:</span>
+                        <p class="bio-value">Ingeniería de Software</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="section">
+            <h2 class="section-title">Mis Habilidades</h2>
+            <div class="tabs-wrapper">
+                <input type="radio" name="skill-tabs" id="tab-blandas" checked>
+                <input type="radio" name="skill-tabs" id="tab-tecnicas">
+
+                <div class="tab-controls">
+                    <label for="tab-blandas" class="tab-label">Personales</label>
+                    <label for="tab-tecnicas" class="tab-label">Tecnológicas</label>
+                </div>
+
+                <div class="tab-panel" id="content-blandas">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-image-box"><img src="./Imagenes/colaboracion.png" alt="Equipo"></div>
+                            <div class="skill-info bg-pink">
+                                <h3>Colaboración</h3>
+                                <p>Efectivo en el trabajo grupal y apoyo constante en la resolución de dudas académicas.</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-image-box"><img src="./Imagenes/comunicacion-efectiva.png" alt="Chat"></div>
+                            <div class="skill-info bg-yellow">
+                                <h3>Comunicación</h3>
+                                <p>Habilidad para transmitir ideas complejas de forma organizada y comprensible.</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-image-box"><img src="./Imagenes/Resolucion.png" alt="Lógica"></div>
+                            <div class="skill-info bg-blue">
+                                <h3>Resolución</h3>
+                                <p>Enfoque analítico para solucionar problemas y gran capacidad de adaptación.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-panel" id="content-tecnicas">
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <div class="skill-image-box"><img src="./Imagenes/web 2.png" alt="Web"></div>
+                            <div class="skill-info bg-orange">
+                                <h3>Desarrollo Web</h3>
+                                <p>Conocimientos básicos de HTML5 / CSS3 y despliegue optimizado con Nginx.</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-image-box"><img src="./Imagenes/NetBeans.png" alt="Interfaces"></div>
+                            <div class="skill-info bg-blue">
+                                <h3>Creaciones de Interfaz</h3>
+                                <p>Creación de interfaces llamativas en Apache NetBeans.</p>
+                            </div>
+                        </div>
+                        <div class="skill-card">
+                            <div class="skill-image-box"><img src="./Imagenes/c++.png" alt="C++"></div>
+                            <div class="skill-info bg-pink">
+                                <h3>Conocimientos en C++</h3>
+                                <p>Implementación de sistemas funcionales para facturación y registros.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="experiencia" class="section">
+            <h2 class="section-title">Formación Académica</h2>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <input type="checkbox" id="exp1" class="accordion-input">
+                    <label for="exp1" class="accordion-header">
+                        <span>Ingeniería de Software - ESPE</span>
+                        <i class="arrow-icon">▼</i>
+                    </label>
+                    <div class="accordion-content">
+                        <div class="content-flex">
+                            <img src="./Imagenes/Espe.png" alt="ESPE" class="accordion-img">
+                            <div class="content-text">
+                                <h4>2023 - 2028</h4>
+                                <p>Universidad de las Fuerzas Armadas: Enfocado en arquitectura de software y sistemas modernos.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <input type="checkbox" id="exp2" class="accordion-input">
+                    <label for="exp2" class="accordion-header">
+                        <span>Bachiller en Ciencias - Juan Pablo II</span>
+                        <i class="arrow-icon">▼</i>
+                    </label>
+                    <div class="accordion-content">
+                        <div class="content-flex">
+                            <img src="./Imagenes/Pablo.png" alt="Colegio" class="accordion-img">
+                            <div class="content-text">
+                                <h4>Graduación: 2023</h4>
+                                <p>Graduado con mención en análisis de ámbitos matemáticos y lógica.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="section">
+            <h2 class="section-title">Proyectos Destacados</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-image-box"><img src="./Imagenes/avion.png" alt="Aviacion"></div>
+                    <div class="skill-info bg-blue">
+                        <h3>Sistema de Aviación</h3>
+                        <p>Registro de tickets para la aerolínea "Espe Airline".</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-image-box"><img src="./Imagenes/html.png" alt="Web"></div>
+                    <div class="skill-info bg-yellow">
+                        <h3>Marca Personal</h3>
+                        <p>Diseño minimalista "aesthetic" con HTML5 y CSS puro.</p>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-image-box"><img src="./Imagenes/Analisis.png" alt="Data"></div>
+                    <div class="skill-info bg-pink">
+                        <h3>Análisis en R</h3>
+                        <p>Modelos predictivos y procesamiento de datos estadísticos.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section">
+            <h2 class="section-title">Contacto Profesional</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form action="#">
+                        <div class="input-group">
+                            <label><i class="fa-solid fa-user"></i> Nombre</label>
+                            <input type="text" placeholder="Tu nombre completo" required>
+                        </div>
+                        <div class="input-group">
+                            <label><i class="fa-solid fa-envelope"></i> Email</label>
+                            <input type="email" placeholder="correo@ejemplo.com" required>
+                        </div>
+                        <div class="input-group">
+                            <label><i class="fa-solid fa-message"></i> Mensaje</label>
+                            <textarea rows="4" placeholder="¿Cómo puedo ayudarte?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-location-dot"></i> Ubicación</h4>
+                        <p>Quito, Ecuador - Chillogallo</p>
+                    </div>
+                    <div class="info-item">
+                        <h4><i class="fa-solid fa-at"></i> Correo</h4>
+                        <p>akramirez@espe.edu.ec</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>Redes Sociales</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-btn"><i class="fa-brands fa-github"></i> GitHub</a>
+                            <a href="#" class="social-btn"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
+                            <a href="https://wa.me/593999851942" target="_blank" class="social-btn"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Axel Ramirez | Estudiante de Software ESPE</p>
+    </footer>
+
+</body>
+</html>
